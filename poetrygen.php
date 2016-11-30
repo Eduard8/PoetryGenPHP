@@ -32,7 +32,7 @@ $imagesDir = 'artist/';
 
 $images = glob($imagesDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
 
-$randomImage = $images[array_rand($images)]
+$randomImage = $images[array_rand($images)];
 
 echo "<image src=" . $randomImage . "></image>";
 echo "<br/>";
